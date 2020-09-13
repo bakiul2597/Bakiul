@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clerfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+.text-left{
+
+    text-align: left;
+}
+
+.text-right{
+
+    text-align: right;
+}
+
+/*  Header css */
+
+.fix-wited{
+
+    width: 1270px;
+    margin: auto;
+}
+
+.hedar{
+    background: #3498db;
+
+}
+.header-left{
+    float: left;
+    width: 30
+
+}
+.header-left img{
+    width:78px;
+    height: auto;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 74px;
+    border-right:1px solid #fff ;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background: #4bcffa;
+}
+
+
+/* Benar pirte */
+
+.benar{
+    background: url(img/backroun.PNG) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.benar-caption{}
+
+.benar-caption h2{
+    background: red;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 34px;
+    border-radius: 10px;
+}
+
+.benar-caption h1{
+    background: #ef5777;
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    font-size: 40px;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-top: 30px
+}
+
+/* About section */
+
+
+
+.About{
+    margin-top: 60px;
+}
+.About h2{
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.About p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+
+/*  scrvice section */
+.scrvice {
+    margin-top: 60px;
+}
+.scrives-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.scrives-item{
+
+    float: left;
+    width: 31.3%;
+    border: 1px solid #ddd;
+    padding:  25px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.scrives-item span{
+
+ 
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px;
+}
+
+/* blog scetion */
+
+.hahaha{
+    margin: 60px 0;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-right-notification{
+    float: right;
+    width: 25%;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+.blog-item img{
+    float: left;
+    width: 170px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Blog notification */
+
+.blog-right-notification{}
+.blog-right-notification h2{
+    font-size: 32px;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+}
+.blog-right-notification ul{
+    list-style: none;
+}
+.blog-right-notification ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 18px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+
+/* Foter */
+
+.foter{
+    background: #2c3e50;
+   color: #fff;
+   padding: 15px 0;
+}
+
+.foter-left{
+    float: left;
+    width: 40%;
+    
+}
+.foter-right{
+    float:right;
+    width: 60%;
+}
+.socil-menu{
+    text-align: right;
+}
+.socil-menu li{
+    display: inline-block;
+}
+.socil-menu li a{
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.socil-menu li a:hover{
+    background: red;
+    border-radius:10px ;
+}

@@ -1,0 +1,88 @@
+
+
+          .hedar {
+    background: #3498db;
+    padding: 10px 0;
+}
+
+
+@media (max-width:1520px) {
+   
+}
+
+@media (max-width:1024px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+    float: right;
+    width: 100%;
+    text-align: center;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .scrives-item h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:768px) {
+    .header-right ul li a {
+        padding: 0 18px;
+        border-right: none;
+        line-height: 40px;  
+    }
+    .benar {  
+        padding: 150px 0;
+      
+    }
+    .scrvice {
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+    .scrives-item {
+        width: 100%;
+        padding: 25px 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .blog-right-notification {
+        width: 100%;
+    }
+    .blog-left-content {
+        width: 100%;
+    }
+    .foter-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .foter-right {
+        width: 100%;
+    }
+    .socil-menu {
+        text-align: center;
+    }
+    .benar-caption h1 {
+        margin-top: 20px;
+    }
+
+}
+@media (max-width:576px) {
+    .benar {  
+        padding: 120px 0;
+      
+    }
+    .benar-caption h1 {  
+        font-size: 33px;
+ 
+    }
+    .benar-caption h2 {
+        
+        padding: 6px 20px;
+        font-size: 29px;
+    }
+}
